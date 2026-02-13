@@ -199,12 +199,13 @@ public sealed class AmeNodeGroup : BaseNodeGroup
         // Modified to make over safe limit injections also provide diminishing returns
         // While everything within the safe limit produces the usual amount, anything over will produce less and less than the normal
         // WonderCluster Start
+        
         var safeLimit = CoreCount * 2; .
         var overLimit = MathF.Max(fuel - safeLimit, 0);
 
         return MathF.Max(200000f * MathF.Log10(2 * ( MathF.Min(fuel, safeLimit) + MathF.Pow(overLimit+0.00001f, -0.4f)*overLimit ) * MathF.Pow(cores, (float)-0.5)), 0); 
         // WonderCluster End
-
+    }
     public int GetTotalStability()
     {
         if (CoreCount < 1)
