@@ -8,4 +8,4 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-guide-entry-rules-wonder = WonderCluster Ruleset
+guide-entry-rules-wonder = WonderCluster Rules

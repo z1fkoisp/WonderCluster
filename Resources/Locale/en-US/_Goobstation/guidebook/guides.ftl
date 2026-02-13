@@ -11,7 +11,7 @@
 guide-entry-space-law = Space Law
 guide-entry-medpatches = Medical Patches
 guide-entry-virology = Virology
-guide-entry-rules-nrp = NRP Ruleset
+# guide-entry-rules-nrp = NRP Ruleset //WonderCluster
 guide-entry-sm = Supermatter Engine
 guide-entry-automation = Automation
 guide-entry-plumbing = Plumbing
