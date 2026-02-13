@@ -1,0 +1,65 @@
+<!--
+SPDX-FileCopyrightText: 2024 Aidenkrz <aiden@djkraz.com>
+SPDX-FileCopyrightText: 2024 Chief-Engineer <119664036+Chief-Engineer@users.noreply.github.com>
+SPDX-FileCopyrightText: 2024 John Willis <143434770+CerberusWolfie@users.noreply.github.com>
+SPDX-FileCopyrightText: 2024 Kira Gbedan <161087999+Verbalase@users.noreply.github.com>
+SPDX-FileCopyrightText: 2024 Piras314 <92357316+Piras314@users.noreply.github.com>
+SPDX-FileCopyrightText: 2024 basic pack <159909786+packmore@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
+
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<!-- Rules directly linked to prototype\rules.yml - edit both to change names of files/textlinking or add additional rules-->
+
+<Document>
+# Goobstation Rules
+
+  - Space Station 14 is not like most games. Many rules are designed to require roleplay, and not all rules are intuitive. Please take the time to read and understand the rules before you play so that you aren't surprised. Some of our rules are zero tolerance rules, meaning that a violation will result in an indefinite ban without any warning. Game admins will treat you as if you have read the rules, even if you have not.
+
+  - Roleplay is king, and admins can disregard other rules to this end should it prove beneficial for the experience of the shift. Admins may choose to intervene in rounds when it is in the best interest of the playerbase.
+
+## CORES RULES
+
+  - [textlink="1. " link="WCRuleC1"]
+  - [textlink="2. Metagaming and OOC Information" link="WCRuleC2"]
+  - [textlink="3. Basic Roleplay Expectations" link="WCRuleC3"]
+  - [textlink="4. Antagonists and Escalation Freedom" link="WCRuleC4"]
+  - [textlink="5. Command Responsibility and Mindshield Expectations" link="WCRuleC5"]
+  - [textlink="6. Ban Evasion" link="WCRuleC6"]
+  - [textlink="7. Only use English" link="WCRuleC7"]
+  - [textlink="8. No ERP" link="WCRuleC8"]
+  - [textlink="9. You MUST be 16+" link="WCRuleC9"]
+  - [textlink="10. Dying is Normal" link="WCRuleC10"]
+  - [textlink="11. Bigotry" link="WCRuleC11"]
+
+## IN GAME & ROLEPLAY RULES
+
+  - [textlink="1. Escalation and Roleplay" link="WCRuleR1"]
+  - [textlink="2. Death Amnesia (NLR)" link="WCRuleR2"]
+  - [textlink="3. Chain of Command" link="WCRuleR3"]
+  - [textlink="4. Metashield" link="WCRuleR4"]
+  - [textlink="5. Antagonism" link="WCRuleR5"]
+  - [textlink="6. Criminal Punishment and Proportionality" link="WCRuleR6"]
+  - [textlink="7. Roleplay and Repetition" link="WCRuleR7"]
+  - [textlink="8. Blueshield Rules" link="WCRuleR8"]
+  - [textlink="9. Nanotrasen Representative Rules" link="WCRuleR9"]
+
+
+  ## SILICON RULES
+  You are only silicon if the game clearly and explicitly tells you that you are a silicon. For players who are silicons, these Silicon Rules override all roleplay rules if there is any conflict. Silicon Rules do not override core rules.
+
+  - [textlink="1. Your silicon laws are rules" link="RuleS1"]
+  - [textlink="2. Laws must be prioritized by their order" link="RuleS2"]
+  - [textlink="3. Laws can redefine terms used in other laws" link="RuleS3"]
+  - [textlink="4. You cannot request or allow a law change" link="RuleS4"]
+  - [textlink="5. You are a free agent if you have no laws" link="RuleS5"]
+  - [textlink="6. You are not required to follow orders which are extremely unreasonable" link="RuleS6"]
+  - [textlink="7. You must remain consistent with your interpretation of laws" link="RuleS7"]
+  - [textlink="8. Your HUD determines who is crew" link="RuleS8"]
+  - [textlink="9. Harm refers to physical harm, prioritized by immediacy and likelihood" link="RuleS9"]
+  - [textlink="10. You may determine how you resolve conflicts between orders" link="RuleS10"]
+
+By accepting these rules, you consent to the server redialing you to other servers in our network.
+</Document>

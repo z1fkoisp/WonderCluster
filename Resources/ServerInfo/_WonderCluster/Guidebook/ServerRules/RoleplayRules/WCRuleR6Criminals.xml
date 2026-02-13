@@ -1,0 +1,26 @@
+<!--
+SPDX-FileCopyrightText: 2024 Chief-Engineer <119664036+Chief-Engineer@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<Document>
+  # Roleplay Rule 7 - Criminal Punishment and Proportionality
+  Restricted antagonists and crew should generally be handled in proportion to the crimes they have committed. Severe crimes justify severe responses. Minor crimes should not automatically result in permanent removal from the round.
+
+  Execution, permanent imprisonment, or forced borging should have strong in-character justification based on the accused’s actions and the current state of the shift. Only the most serious crimes — such as repeated murder, large-scale sabotage, or existential threats to the station — typically warrant immediate execution. However, proportionality is a roleplay expectation, not a mechanical requirement. Security and Command may be harsh, biased, panicked, or even corrupt in their rulings, provided their actions are grounded in coherent in-character reasoning. Extreme punishments may result in extreme reactions, including resistance, uprising, or retaliation.
+  Forced borging is considered equivalent to execution in severity.
+
+  Explicitly friendly antagonists do not receive proportionality protections and may be treated as crew or otherwise handled as the situation dictates.
+
+  See: [textlink="Space Law" link="SpaceLaw"]
+
+  ## Precedents
+
+  - Minor crimes such as departmental break-ins or non-critical theft should generally result in short brig sentences, escalating for repeat offenses. Theft of critical or high-security equipment (e.g., hand teleporter, Chief Engineer’s hardsuit, AI upload boards) is significantly more severe and may justify long-term imprisonment or permanent confinement depending on context.
+  - Murder and major sabotage are among the most severe crimes and may justify permanent imprisonment or execution. Leniency remains an option if it meaningfully contributes to the round.
+  - When reasonably possible, Security should consult a superior before carrying out execution or permanent imprisonment. Bypassing this step for urgent, corrupt, or dramatic reasons is permitted if meaningfully roleplayed.
+  - The overall status of the station factors in to the severity of committed crimes and the proportionality of security response, an assault on an officer resulting in an arrest is unlikely to be worthy of execution while the station is in perfect shape and security are otherwise unoccupied, but is reasonably worthy of an on-the-spot field execution if it occurs during active assault by war-ops with comms down and half the station torn in half by explosions.
+  - Security are encouraged to use creative punishments when appropriate, including community service, psychological evaluation, demotion, exile, or other interaction-focused consequences. Punishment does not have to be limited to standard brig sentences if alternative resolutions are more interesting.
+</Document>

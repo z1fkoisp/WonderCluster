@@ -1,0 +1,320 @@
+# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
+# SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
+# SPDX-FileCopyrightText: 2025 Rouge2t7 <sarahoneill132@hotmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: guideEntry # Default for forks and stuff. Should not be listed anywhere if the server is using a custom ruleset.
+  id: WonderRuleset
+  name: guide-entry-rules
+  priority: 60
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/DefaultRules.xml"
+  children:
+  - WCCoreRules
+  - WCRoleplayRules
+  - SiliconRules
+  - RoleTypes
+  - BanTypes
+  - BanDurations
+
+- type: guideEntry
+  id: WCCoreRules
+  name: guide-entry-rules-core
+  ruleEntry: true
+  priority: 30
+  text: "/ServerInfo/_WonderClusterGuidebook/ServerRules/CoreRules/WCRuleC0.xml"
+  children:
+  - WCAdmins
+  - WCRuleC1
+  - WCRuleC2
+  - WCRuleC3
+  - WCRuleC4
+  - WCRuleC5
+  - WCRuleC6
+  - WCRuleC7
+  - WCRuleC8
+  - WCRuleC9
+  - WCRuleC10
+  - WCRuleC11
+  - WCRuleC12
+
+- type: guideEntry
+  id: WCAdmins
+  name: guide-entry-rules-c0
+  ruleEntry: true
+  priority: 1
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC0Admins.xml"
+
+- type: guideEntry
+  id: WCRuleC1
+  name: guide-entry-rules-c1
+  ruleEntry: true
+  priority: 2
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC1DMAD.xml"
+
+- type: guideEntry
+  id: WCRuleC2
+  name: guide-entry-rules-c2
+  ruleEntry: true
+  priority: 3
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC2ICKOCK.xml"
+
+- type: guideEntry
+  id: WCRuleC3
+  name: guide-entry-rules-c3
+  ruleEntry: true
+  priority: 4
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC3Roleplay.xml"
+
+- type: guideEntry
+  id: WCRuleC4
+  name: guide-entry-rules-c4
+  ruleEntry: true
+  priority: 5
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC4Antags.xml"
+
+- type: guideEntry
+  id: WCRuleC5
+  name: guide-entry-rules-c5
+  ruleEntry: true
+  priority: 6
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC5Vitals.xml"
+
+- type: guideEntry
+  id: WCRuleC6
+  name: guide-entry-rules-c6
+  ruleEntry: true
+  priority: 7
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC6BanEvasion.xml"
+
+- type: guideEntry
+  id: WCRuleC7
+  name: guide-entry-rules-c7
+  ruleEntry: true
+  priority: 8
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC7EnglishOnly.xml"
+
+- type: guideEntry
+  id: WCRuleC8
+  name: guide-entry-rules-c8
+  ruleEntry: true
+  priority: 9
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC8ERP.xml"
+
+- type: guideEntry
+  id: WCRuleC9
+  name: guide-entry-rules-c9
+  ruleEntry: true
+  priority: 10
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC9Age.xml"
+
+- type: guideEntry
+  id: WCRuleC10
+  name: guide-entry-rules-c10
+  ruleEntry: true
+  priority: 11
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC10GitGud.xml"
+
+- type: guideEntry
+  id: WCRuleC11
+  name: guide-entry-rules-c11
+  ruleEntry: true
+  priority: 12
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC11Bigotry.xml"
+
+- type: guideEntry
+  id: WCRoleplayRules
+  name: guide-entry-rules-roleplay
+  ruleEntry: true
+  priority: 40
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/RoleplayRules/WCRuleR0.xml"
+  children:
+  - WCRuleR1
+  - WCRuleR2
+  - WCRuleR3
+  - WCRuleR4
+  - WCRuleR5
+  - WCRuleR6
+  - WCRuleR7
+  - WCRuleR8
+  - WCRuleR9
+
+- type: guideEntry
+  id: WCRuleR1
+  name: guide-entry-rules-r1
+  ruleEntry: true
+  priority: 1
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/RoleplayRules/WCRuleR1Escalation.xml"
+
+- type: guideEntry
+  id: WCRuleR2
+  name: guide-entry-rules-r2
+  ruleEntry: true
+  priority: 2
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/RoleplayRules/WCRuleR2NewLifeRule.xml"
+
+- type: guideEntry
+  id: WCRuleR3
+  name: guide-entry-rules-r3
+  ruleEntry: true
+  priority: 3
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/RoleplayRules/WCRuleR3TheChain.xml"
+
+- type: guideEntry
+  id: WCRuleR4
+  name: guide-entry-rules-r4
+  ruleEntry: true
+  priority: 4
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/RoleplayRules/WCRuleR4Metashield.xml"
+
+- type: guideEntry
+  id: WCRuleR5
+  name: guide-entry-rules-r5
+  ruleEntry: true
+  priority: 5
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/RoleplayRules/WCRuleR5Antag.xml"
+
+- type: guideEntry
+  id: WCRuleR6
+  name: guide-entry-rules-r6
+  ruleEntry: true
+  priority: 6
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/RoleplayRules/WCRuleR6Criminals.xml"
+
+- type: guideEntry
+  id: WCRuleR7
+  name: guide-entry-rules-r7
+  ruleEntry: true
+  priority: 7
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/RoleplayRules/WCRuleR7Repetition.xml"
+
+- type: guideEntry
+  id: WCRuleR8
+  name: guide-entry-rules-r8
+  ruleEntry: true
+  priority: 8
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/RoleplayRules/WCRuleR8Blueshield.xml"
+
+- type: guideEntry
+  id: WCRuleR9
+  name: guide-entry-rules-r9
+  ruleEntry: true
+  priority: 9
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/RoleplayRules/WCRuleR9NTR.xml"
+
+- type: guideEntry
+  id: SiliconRules
+  name: guide-entry-rules-silicon
+  ruleEntry: true
+  priority: 50
+  text: "/ServerInfo/Guidebook/ServerRules/SiliconRules/RuleS0.xml"
+  children:
+  - RuleS1
+  - RuleS2
+  - RuleS3
+  - RuleS4
+  - RuleS5
+  - RuleS6
+  - RuleS7
+  - RuleS8
+  - RuleS9
+  - RuleS10
+
+- type: guideEntry
+  id: RuleS1
+  name: guide-entry-rules-s1
+  ruleEntry: true
+  priority: 1
+  text: "/ServerInfo/Guidebook/ServerRules/SiliconRules/RuleS1Laws.xml"
+
+- type: guideEntry
+  id: RuleS2
+  name: guide-entry-rules-s2
+  ruleEntry: true
+  priority: 2
+  text: "/ServerInfo/Guidebook/ServerRules/SiliconRules/RuleS2LawPriority.xml"
+
+- type: guideEntry
+  id: RuleS3
+  name: guide-entry-rules-s3
+  ruleEntry: true
+  priority: 3
+  text: "/ServerInfo/Guidebook/ServerRules/SiliconRules/RuleS3LawRedefinition.xml"
+
+- type: guideEntry
+  id: RuleS4
+  name: guide-entry-rules-s4
+  ruleEntry: true
+  priority: 4
+  text: "/ServerInfo/Guidebook/ServerRules/SiliconRules/RuleS4RequestChanges.xml"
+
+- type: guideEntry
+  id: RuleS5
+  name: guide-entry-rules-s5
+  ruleEntry: true
+  priority: 5
+  text: "/ServerInfo/Guidebook/ServerRules/SiliconRules/RuleS5FreeSilicon.xml"
+
+- type: guideEntry
+  id: RuleS6
+  name: guide-entry-rules-s6
+  ruleEntry: true
+  priority: 6
+  text: "/ServerInfo/Guidebook/ServerRules/SiliconRules/RuleS6UnreasonableOrders.xml"
+
+- type: guideEntry
+  id: RuleS7
+  name: guide-entry-rules-s7
+  ruleEntry: true
+  priority: 7
+  text: "/ServerInfo/Guidebook/ServerRules/SiliconRules/RuleS7Consistency.xml"
+
+- type: guideEntry
+  id: RuleS8
+  name: guide-entry-rules-s8
+  ruleEntry: true
+  priority: 8
+  text: "/ServerInfo/Guidebook/ServerRules/SiliconRules/RuleS8DefaultCrewDefinition.xml"
+
+- type: guideEntry
+  id: RuleS9
+  name: guide-entry-rules-s9
+  ruleEntry: true
+  priority: 9
+  text: "/ServerInfo/Guidebook/ServerRules/SiliconRules/RuleS9DefaultHarmDefinition.xml"
+
+- type: guideEntry
+  id: RuleS10
+  name: guide-entry-rules-s10
+  ruleEntry: true
+  priority: 10
+  text: "/ServerInfo/Guidebook/ServerRules/SiliconRules/RuleS10OrderConflicts.xml"
+
+- type: guideEntry
+  id: SpaceLaw
+  name: guide-entry-rules-space-law
+  priority: 1
+  text: "/ServerInfo/Guidebook/ServerRules/SpaceLaw/SpaceLaw.xml"
+  children:
+  - SpaceLawCrimeList
+
+- type: guideEntry
+  id: SpaceLawCrimeList
+  name: guide-entry-rules-sl-crime-list
+  priority: 5
+  text: "/ServerInfo/Guidebook/ServerRules/SpaceLaw/SLCrimeList.xml"
+
+- type: guideEntry
+  id: BanTypes
+  name: guide-entry-rules-ban-types
+  ruleEntry: true
+  priority: 90
+  text: "/ServerInfo/Guidebook/ServerRules/BanTypes.xml"
+
+- type: guideEntry
+  id: BanDurations
+  name: guide-entry-rules-ban-durations
+  ruleEntry: true
+  priority: 100
+  text: "/ServerInfo/Guidebook/ServerRules/BanDurations.xml"
