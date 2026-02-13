@@ -170,9 +170,12 @@ public sealed class AmeControllerSystem : EntitySystem
 
         group.UpdateCoreVisuals();
         UpdateDisplay(uid, controller.Stability, controller);
-
-        if (controller.Stability <= 0)
-            group.ExplodeCores();
+// WonderCluster Changes Start
+/*
+        if (controller.Stability <= 0)    // Disabled explosive AME, too easy to sabotage
+            group.ExplodeCores();        // Instead, made overrcharging have diminishing returns
+*/
+// WonderCluster Changes End
     }
 
     public void UpdateUi(EntityUid uid, AmeControllerComponent? controller = null)
