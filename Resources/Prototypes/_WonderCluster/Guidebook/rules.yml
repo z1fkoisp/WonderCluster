@@ -7,7 +7,7 @@
 
 - type: guideEntry 
   id: WonderRuleset
-  name: guide-entry-rules
+  name: guide-entry-rules-wonder
   priority: 60
   text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/WonderRules.xml"
   children:
