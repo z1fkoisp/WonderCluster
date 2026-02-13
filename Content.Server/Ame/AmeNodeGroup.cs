@@ -135,16 +135,20 @@ public sealed class AmeNodeGroup : BaseNodeGroup
     {
         overloading = false;
 
-        var shieldQuery = _entMan.GetEntityQuery<AmeShieldComponent>();
+      //  var shieldQuery = _entMan.GetEntityQuery<AmeShieldComponent>(); WonderCluster - Remove AME Explosion
         if (fuel <= 0 || CoreCount <= 0)
             return 0;
 
         var safeFuelLimit = CoreCount * 2;
 
         var powerOutput = CalculatePower(fuel, CoreCount);
-        if (fuel <= safeFuelLimit)
-            return powerOutput;
+                if (fuel >= safeFuelLimit)
+            overloading = true;
 
+        return powerOutput;
+
+        // WonderCluster Changes Start
+        /* 
         // The AME is being overloaded.
         // Note about these maths: I would assume the general idea here is to make larger engines less safe to overload.
         // In other words, yes, those are supposed to be CoreCount, not safeFuelLimit.
@@ -175,6 +179,8 @@ public sealed class AmeNodeGroup : BaseNodeGroup
             _chat.SendAdminAlert($"AME overloading: {_entMan.ToPrettyString(_masterController.Value)}");
 
         return powerOutput;
+        */
+        // WonderCluster Changes End
     }
 
     /// <summary>
@@ -189,8 +195,15 @@ public sealed class AmeNodeGroup : BaseNodeGroup
         // Unlike the previous solution, increasing fuel and cores always leads to an increase in power, even if by very small amounts.
         // Increasing core count without increasing fuel always leads to reduced power as well.
         // At 18+ cores and 2 inject, the power produced is less than 0, the Max ensures the AME can never produce "negative" power.
-        return MathF.Max(200000f * MathF.Log10(2 * fuel * MathF.Pow(cores, (float)-0.5)), 0);
-    }
+
+        // Modified to make over safe limit injections also provide diminishing returns
+        // While everything within the safe limit produces the usual amount, anything over will produce less and less than the normal
+        // WonderCluster Start
+        var safeLimit = CoreCount * 2; .
+        var overLimit = MathF.Max(fuel - safeLimit, 0);
+
+        return MathF.Max(200000f * MathF.Log10(2 * ( MathF.Min(fuel, safeLimit) + MathF.Pow(overLimit+0.00001f, -0.4f)*overLimit ) * MathF.Pow(cores, (float)-0.5)), 0); 
+        // WonderCluster End
 
     public int GetTotalStability()
     {
