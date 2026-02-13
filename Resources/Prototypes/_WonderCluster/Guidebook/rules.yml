@@ -5,11 +5,11 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-- type: guideEntry # Default for forks and stuff. Should not be listed anywhere if the server is using a custom ruleset.
+- type: guideEntry 
   id: WonderRuleset
   name: guide-entry-rules
   priority: 60
-  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/DefaultRules.xml"
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/WonderRules.xml"
   children:
   - WCCoreRules
   - WCRoleplayRules
@@ -23,7 +23,7 @@
   name: guide-entry-rules-core
   ruleEntry: true
   priority: 30
-  text: "/ServerInfo/_WonderClusterGuidebook/ServerRules/CoreRules/WCRuleC0.xml"
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC0.xml"
   children:
   - WCAdmins
   - WCRuleC1
