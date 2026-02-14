@@ -5,10 +5,12 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
+#hi
+
 - type: guideEntry 
-  id: WonderRuleset
+  id: DefaultRuleset
   name: guide-entry-rules-wonder
-  priority: 1
+  priority: 60
   text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/WonderRules.xml"
   children:
   - WCCoreRules
@@ -20,7 +22,7 @@
 
 - type: guideEntry
   id: WCCoreRules
-  name: guide-entry-rules-core
+  name: guide-entry-rules-core-wc
   ruleEntry: true
   priority: 30
   text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC0.xml"
@@ -33,98 +35,66 @@
   - WCRuleC5
   - WCRuleC6
   - WCRuleC7
-  - WCRuleC8
-  - WCRuleC9
-  - WCRuleC10
-  - WCRuleC11
 
 - type: guideEntry
   id: WCAdmins
-  name: guide-entry-rules-c0
+  name: guide-entry-rules-c0-wc
   ruleEntry: true
   priority: 1
   text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC0Admins.xml"
 
 - type: guideEntry
   id: WCRuleC1
-  name: guide-entry-rules-c1
+  name: guide-entry-rules-c1-wc
   ruleEntry: true
   priority: 2
   text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC1DMAD.xml"
 
 - type: guideEntry
   id: WCRuleC2
-  name: guide-entry-rules-c2
+  name: guide-entry-rules-c2-wc
   ruleEntry: true
   priority: 3
-  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC2ICKOCK.xml"
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC2ERP.xml"
 
 - type: guideEntry
   id: WCRuleC3
-  name: guide-entry-rules-c3
+  name: guide-entry-rules-c3-wc
   ruleEntry: true
   priority: 4
-  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC3Roleplay.xml"
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC3Age.xml"
 
 - type: guideEntry
   id: WCRuleC4
-  name: guide-entry-rules-c4
+  name: guide-entry-rules-c4-wc
   ruleEntry: true
   priority: 5
-  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC4Antags.xml"
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC4EnglishOnly.xml"
 
 - type: guideEntry
   id: WCRuleC5
-  name: guide-entry-rules-c5
+  name: guide-entry-rules-c5-wc
   ruleEntry: true
   priority: 6
-  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC5Vitals.xml"
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC5Bigotry.xml"
 
 - type: guideEntry
   id: WCRuleC6
-  name: guide-entry-rules-c6
+  name: guide-entry-rules-c6-wc
   ruleEntry: true
   priority: 7
   text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC6BanEvasion.xml"
 
 - type: guideEntry
   id: WCRuleC7
-  name: guide-entry-rules-c7
+  name: guide-entry-rules-c7-wc
   ruleEntry: true
   priority: 8
-  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC7EnglishOnly.xml"
-
-- type: guideEntry
-  id: WCRuleC8
-  name: guide-entry-rules-c8
-  ruleEntry: true
-  priority: 9
-  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC8ERP.xml"
-
-- type: guideEntry
-  id: WCRuleC9
-  name: guide-entry-rules-c9
-  ruleEntry: true
-  priority: 10
-  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC9Age.xml"
-
-- type: guideEntry
-  id: WCRuleC10
-  name: guide-entry-rules-c10
-  ruleEntry: true
-  priority: 11
-  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC10GitGud.xml"
-
-- type: guideEntry
-  id: WCRuleC11
-  name: guide-entry-rules-c11
-  ruleEntry: true
-  priority: 12
-  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC11Bigotry.xml"
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/CoreRules/WCRuleC7GitGud.xml"
 
 - type: guideEntry
   id: WCRoleplayRules
-  name: guide-entry-rules-roleplay
+  name: guide-entry-rules-roleplay-wc
   ruleEntry: true
   priority: 40
   text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/RoleplayRules/WCRuleR0.xml"
@@ -135,69 +105,46 @@
   - WCRuleR4
   - WCRuleR5
   - WCRuleR6
-  - WCRuleR7
-  - WCRuleR8
-  - WCRuleR9
 
 - type: guideEntry
   id: WCRuleR1
-  name: guide-entry-rules-r1
+  name: guide-entry-rules-r1-wc
   ruleEntry: true
   priority: 1
-  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/RoleplayRules/WCRuleR1Escalation.xml"
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/RoleplayRules/WCRuleR1Standards.xml"
 
 - type: guideEntry
   id: WCRuleR2
-  name: guide-entry-rules-r2
+  name: guide-entry-rules-r2-wc
   ruleEntry: true
   priority: 2
   text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/RoleplayRules/WCRuleR2NewLifeRule.xml"
 
 - type: guideEntry
   id: WCRuleR3
-  name: guide-entry-rules-r3
+  name: guide-entry-rules-r3-wc
   ruleEntry: true
   priority: 3
-  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/RoleplayRules/WCRuleR3TheChain.xml"
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/RoleplayRules/WCRuleR3Metagaming.xml"
 
 - type: guideEntry
   id: WCRuleR4
-  name: guide-entry-rules-r4
+  name: guide-entry-rules-r4-wc
   ruleEntry: true
   priority: 4
-  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/RoleplayRules/WCRuleR4Metashield.xml"
+  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/RoleplayRules/WCRuleR4Vitals.xml"
 
 - type: guideEntry
   id: WCRuleR5
-  name: guide-entry-rules-r5
+  name: guide-entry-rules-r5-wc
   ruleEntry: true
   priority: 5
   text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/RoleplayRules/WCRuleR5Antag.xml"
 
 - type: guideEntry
   id: WCRuleR6
-  name: guide-entry-rules-r6
+  name: guide-entry-rules-r6-wc
   ruleEntry: true
   priority: 6
   text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/RoleplayRules/WCRuleR6Criminals.xml"
 
-- type: guideEntry
-  id: WCRuleR7
-  name: guide-entry-rules-r7
-  ruleEntry: true
-  priority: 7
-  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/RoleplayRules/WCRuleR7Repetition.xml"
-
-- type: guideEntry
-  id: WCRuleR8
-  name: guide-entry-rules-r8
-  ruleEntry: true
-  priority: 8
-  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/RoleplayRules/WCRuleR8Blueshield.xml"
-
-- type: guideEntry
-  id: WCRuleR9
-  name: guide-entry-rules-r9
-  ruleEntry: true
-  priority: 9
-  text: "/ServerInfo/_WonderCluster/Guidebook/ServerRules/RoleplayRules/WCRuleR9NTR.xml"

@@ -12,37 +12,35 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 <!-- Rules directly linked to prototype\rules.yml - edit both to change names of files/textlinking or add additional rules-->
 <Document>
-# WonderCluster Rules
+  # WonderCluster Rules
 
-  - Space Station 14 is not like most games. Many rules are designed to require roleplay, and not all rules are intuitive. Please take the time to read and understand the rules before you play so that you aren't surprised. Some of our rules are zero tolerance rules, meaning that a violation will result in an indefinite ban without any warning. Game admins will treat you as if you have read the rules, even if you have not.
+  Space Station 14 is not like most games. Many rules are designed to require roleplay, and not all rules are intuitive. Please take the time to read and understand the rules before you play so that you aren't surprised. Some of our rules are zero tolerance rules, meaning that a violation will result in an indefinite ban without any warning. Game admins will treat you as if you have read the rules, even if you have not.
 
-  - Roleplay is king, and admins can disregard other rules to this end should it prove beneficial for the experience of the shift. Admins may choose to intervene in rounds when it is in the best interest of the playerbase.
+  Roleplay is king, and admins can disregard other rules to this end should it prove beneficial for the experience of the shift. Admins may choose to intervene in rounds when it is in the best interest of the playerbase.
 
-## CORE RULES
+  ## CORE RULES
+  These rules apply at [bold]ALL[/bold] times, both in and out of rounds. They are not roleplay rules, and admins will enforce them even if it harms the roleplay experience of a shift.
+
+  - [textlink="Admin Intervention" link="RuleC0Admins"]
 
   - [textlink="1. Don't be a Dick" link="WCRuleC1"]
-  - [textlink="2. Metagaming and OOC Information" link="WCRuleC2"]
-  - [textlink="3. Basic Roleplay Expectations" link="WCRuleC3"]
-  - [textlink="4. Antagonists and Escalation Freedom" link="WCRuleC4"]
-  - [textlink="5. Command Responsibility and Mindshield Expectations" link="WCRuleC5"]
-  - [textlink="6. Ban Evasion" link="WCRuleC6"]
-  - [textlink="7. Only use English" link="WCRuleC7"]
-  - [textlink="8. No ERP" link="WCRuleC8"]
-  - [textlink="9. You MUST be 16+" link="WCRuleC9"]
-  - [textlink="10. Dying is Normal" link="WCRuleC10"]
-  - [textlink="11. Bigotry" link="WCRuleC11"]
+  - [textlink="2. No ERP" link="WCRuleC2"]
+  - [textlink="3. You MUST be 16+" link="WCRuleC3"]
+  - [textlink="4. English Only" link="WCRuleC4"]
+  - [textlink="5. No Bigotry" link="WCRuleC5"]
+  - [textlink="6. Do not Ban Evade" link="WCRuleC6"]
+  - [textlink="7. Dying is Normal" link="WCRuleC7"]
 
-## IN GAME & ROLEPLAY RULES
 
-  - [textlink="1. Escalation and Roleplay" link="WCRuleR1"]
-  - [textlink="2. Death Amnesia (NLR)" link="WCRuleR2"]
-  - [textlink="3. Chain of Command" link="WCRuleR3"]
-  - [textlink="4. Metashield" link="WCRuleR4"]
-  - [textlink="5. Antagonism" link="WCRuleR5"]
-  - [textlink="6. Criminal Punishment and Proportionality" link="WCRuleR6"]
-  - [textlink="7. Roleplay and Repetition" link="WCRuleR7"]
-  - [textlink="8. Blueshield Rules" link="WCRuleR8"]
-  - [textlink="9. Nanotrasen Representative Rules" link="WCRuleR9"]
+  ## ROLEPLAY RULES
+  These rules only apply during a round. A round ends only when the round summary has appeared. All of these rules apply fully until the moment that the round summary appears, even while the arrivals shuttle is in transit. Roleplay rules do not apply to ghosts/spectators/observers while they are ghosts/spectators/observers. Dead chat is considered to be an in-game out of character chat channel.
+
+  - [textlink="1. Try to use proper escalation" link="WCRuleR1"]
+  - [textlink="2. Follow New Life Rule (NLR)" link="WCRuleR2"]
+  - [textlink="3. No Extreme Metagaming" link="WCRuleR3"]
+  - [textlink="4. Command Responsibility and Mindshield Expectations" link="WCRuleR4"]
+  - [textlink="5. Self-Antagonism and Antagonist Rules" link="WCRuleR5"]
+  - [textlink="6. Don't overdo criminal punishments" link="WCRuleR6"]
 
 
   ## SILICON RULES
@@ -59,5 +57,4 @@ SPDX-License-Identifier: AGPL-3.0-or-later
   - [textlink="9. Harm refers to physical harm, prioritized by immediacy and likelihood" link="RuleS9"]
   - [textlink="10. You may determine how you resolve conflicts between orders" link="RuleS10"]
 
-By accepting these rules, you consent to joining the FLESH.
 </Document>

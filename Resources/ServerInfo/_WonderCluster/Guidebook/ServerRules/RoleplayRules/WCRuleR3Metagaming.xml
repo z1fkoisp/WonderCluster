@@ -9,8 +9,24 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Roleplay Rule 4 - Do not metagame, obey the Metashield
-  Something that is "shielded" cannot be known by your character during a round until the "revealing condition" happens. This also means that your character cannot do things based on "shielded" information. Knowing or acting on something that is shielded before the revealing condition is met is referred to as metagaming.
+  # Roleplay Rule 3 - Do not over-metagame; Obey the Metashield
+  Wonder Cluster allows game knowledge and social continuity between rounds. Players may understand certain antagonist mechanics, common tactics, and maintain persistent character relationships. However, players should not use information gained outside of in-character means to gain an unfair advantage or unintended advantage during a round.
+
+  ## What Is Allowed
+
+  - General knowledge of game mechanics and certain antagonist roles
+  - Persistent friendships, rivalries, or character history
+  - Playing with friends, provided actions remain roleplay-driven
+  - Out-of-character communication that does not influence round outcomes
+
+  ## What Is Not Allowed
+
+  - Relaying antagonist locations or objectives
+  - Coordinating attacks, fights, or through external channels
+  - Watching streams to gain round information
+  - Acting on knowledge of hidden roles (e.g., Nuclear Operatives, traitors, chameleon users) without in-character discovery
+
+  Secrecy-based roles and mechanics rely on uncertainty to function. Preemptively countering them using outside information undermines fair play. Something that is "shielded" cannot be known by your character during a round until the "revealing condition" happens. This also means that your character cannot do things based on "shielded" information. Knowing or acting on something that is shielded before the revealing condition is met is referred to as metagaming.
 
   Revealing conditions reveal the shielded information for the round, not for a specific instance. This means that once a revealing condition is met in a round, the shield no longer applies in any case for the remainder of the round.
 
@@ -29,47 +45,30 @@ SPDX-License-Identifier: AGPL-3.0-or-later
   This does not prevent knowing that a shift will end, but does prohibit things like preparing to kill people at central command when roleplay rules stop being enforced on LRP.
 
   ## Nuclear Operatives
-
-  - Nuclear Operatives are rumoured but not proven. Have fun with this rumour.
+  Nuclear Operatives are rumoured but not proven. NanoTrasen has made extreme attempts to make any Gorlex terrorism hidden from public eye. Have fun with this rumour.
 
   ## Changelings
-
-  - In the eyes of the public, changelings are an exterminated predatory lifeform, they could always come back, but they'd not be on our station, right?
+  In the eyes of the public, changelings are an exterminated predatory lifeform, they could always come back, but they'd not be on our station, right?
 
   ## Heretics
-
-  - The chaplain is aware of the existence of heretics, but the chaplain is always spewing nonsense. What do they even mean?
+  The chaplain is aware of the existence of heretics, but the chaplain is always spewing nonsense. What do they even mean?
 
   ## Cosmic Cult
-
-  - The chaplain is saying words again! Why do they hire such weird people?
+  The chaplain is saying strange words again! Why do they hire such insane people?
 
   ## Devils
-
-  - The chaplain is now...talking about DEVILS? What is this nonsense? Devils are just a myth, right? They can't be real!
-
+  The chaplain is now...talking about DEVILS? What is this nonsense?
   Knowledge about the abilities and consequences of a Devil deal are not shielded.
 
-  ## Zombies
-
-  Zombies are known galaxy-wide, but not as real-life, instead, as fiction.
-  Nuclear Operatives and Syndicate Agents are aware of Romerol and what it can do, but there's no benefit to revealing it to the crew. People likely won't believe you anyway.
-
   ## Deathsquad
-
   Deathsquad is a sci-fi trope that is well known in the galaxy, but not as a real thing. It is a myth, a legend, and a story that people tell each other. The Deathsquad is not real, but some will argue that it is.
 
-  ## Implanted implants
-
-  Implants are not shielded by default, but the fact that they are not Nanotrasen (NT) implants is shielded.
-
   ## Chameleon Items
-
-  Chameleon items are shielded.
-  Being suspicious of an item being fake or stolen is not shielded, but testing items or calling them chameleon is covered by this shield.
+  Chameleon items are partially shielded.
+  People are aware of the existance of devices that can change appearance. 
+  Stealing an AgentID and using the interact menu to confirm that it is an AgentID breaks this metashield. Being suspicious of an item being fake or stolen is not shielded, but calling them chameleon without proper IC evidence is covered by this shield.
 
   ## Stealth Items
-
   The fact that an item can be something other than what its visual appearance and examine description indicate is shielded.
   Security may be aware of tampered items, but they are not aware of the specific item that is tamped. This means that security may not act on the fact that an item is tamped, but they may act on the fact that an item is suspicious.  (Example: Non-NT weapons on a persons is suspicious, how did they get it on station?)
   This shield protects stealth items, including protecting them from being tested.

@@ -12,7 +12,6 @@
   children:
   - Controls
   - CharacterCreation
-  - WonderRuleset
 
 - type: guideEntry
   id: Controls

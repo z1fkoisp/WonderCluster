@@ -7,16 +7,18 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Roleplay Rule 6 - Antagonism
+  # Roleplay Rule 5 - Antagonism
 
-  Antagonists exist to create conflict, tension, and story. Their role is to meaningfully influence the shift, not simply to remove players from the round.
+  With the exception of metagaming, exploit abuse, ERP, OOC/IC violations, or spawn-camping arrivals, lone antagonists are largely free to pursue their objectives in any manner they choose. Team antagonists operate under the same freedom as lone antagonists but must not intentionally undermine their team’s objectives through sabotage, refusal to participate, or bad-faith inaction.
+  This freedom is conditional on effort and roleplay. Escalation is permitted — including extreme escalation — when supported by meaningful in-character reasoning and interaction.
+  Crewmembers are permitted to investigate, question, or monitor others if they develop reasonable in-character suspicion. You do not need to be Security to be cautious or investigative. However, pre-emptive detainment, lethal force, or murder without sufficient in-character cause may be treated as disruptive. Suspicion should arise from in-round behavior, not assumptions based on role likelihood, player patterns, or OOC knowledge.
+  Once conflict is remotely justified, crewmembers may respond as they see fit, understanding that their actions remain subject to in-character consequences such as Space Law. Acting like an antagonist in action or appearance may result in being treated as one in-character.
 
-  Antagonists are expected to engage with their role and pursue a coherent in-character direction. Objectives are guidance, not rigid requirements. An antagonist may ignore or reinterpret their objectives if they have a more interesting or consistent in-character plan. Antagonistic actions that would typically result in removal from the round on other servers may instead result in severe in-character consequences here, such as permanent incarceration or execution. The expectation is that extreme actions are resolved through roleplay whenever possible. However, actions taken without in-character grounding, purely to disrupt the round, or intended to target players out-of-character remain administrative issues.
+  Antagonists exist to create conflict and tension. Their role is to meaningfully influence the shift, not simply to remove players from the round. An antagonist's objectives are guidance, not rigid requirements. An antagonist may ignore or reinterpret their objectives if they have a more interesting or consistent in-character plan. Antagonistic actions that would typically result in removal from the round on other servers may instead result in severe in-character consequences here, such as permanent incarceration or execution. The expectation is that extreme actions are resolved through roleplay whenever possible. However, actions taken without in-character grounding, purely to disrupt the round, or intended to target players out-of-character remain administrative issues.
 
-  ## Precedents
+  ## Note:
   - Objectives are suggestions, and antagonists are free to ignore them if they have a preferred or more interesting idea for their course of action.
   - Actions as an antagonist do not have to be nefarious or evil, but should make an effort to influence the story and meaningfully impact the shift. Explicitly friendly antagonistic play or siding outright with the crew is discourged – players should have good in-character reasoning behind the decision or an antagonistic goal in mind by doing it.
-  - Roleplay rule 11 applies to the actions of antagonists – extremely repetitive antagonistic actions repeated over the long term may draw an administrative request to tone it down or try something new, if most of the people on the server can immediately guess what you’re going to do when made an antagonist, it might be time to come up with a new plan.
 
   ## Important information regarding antag labels.
   - Traitors and Changelings may team despite being solo antagonists, but risk being a target themselves or double crossed for their biomass or TC.
@@ -25,6 +27,10 @@ SPDX-License-Identifier: AGPL-3.0-or-later
   - The Abductor should not make exxtreme attempts to steal things. They are generally only interested in research. Some trinkets are cool to collect but what use are these normal items?
   - The Thief antagonist should only deliberately kill in self-defense, while protecting their stash, or after proper
   escalation.
+
+  ## Antagonist Directive Priorities
+  - In situations where you wind up with multiple simultaneous antagonist assignments (i.e. a Revolutionary and a Traitor), your team goals, objectives, and directives should take precedence. Furthermore, if someone had to go out of their way to convert you to their team, their goals, objectives, and directives become the priority. Refer to the following flowchart:
+  - Blob/Zombie -> Brainwash/Construct orders/Silicon Laws -> Cult/Heretic -> Revs -> Wizard Apprentice/Abductor Teams/Niche antags -> Nuke Ops -> Traitors
 
   # Restricted Antag Death and Destruction
 
