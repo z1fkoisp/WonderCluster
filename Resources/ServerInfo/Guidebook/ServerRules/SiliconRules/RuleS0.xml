@@ -6,8 +6,11 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Silicon Rules
+  ## Silicon Rules
   You are only silicon if the game clearly and explicitly tells you that you are a silicon. For players who are silicons, these Silicon Rules override all roleplay rules if there is any conflict. Silicon Rules do not override core rules.
+
+  See the list of [textlink="Role Types" link="RoleTypes"] for more information about the different types of roles.
+  Also see [textlink="Character Rules" link="WCRoleplayRules"] for rules that apply to all characters, including silicons.
 
   - [textlink="1. Your silicon laws are rules" link="RuleS1"]
   - [textlink="2. Laws must be prioritized by their order" link="RuleS2"]

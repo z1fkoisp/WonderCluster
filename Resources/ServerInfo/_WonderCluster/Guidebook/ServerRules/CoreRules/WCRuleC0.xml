@@ -10,19 +10,16 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 <Document>
   # Core Rules
   Roleplay is king, and admins can disregard other rules to this end should it prove beneficial for the experience of the shift. Admins are also allowed to intervene in rounds when it is in the best interest of the player base.
+  These rules apply at [bold]ALL[/bold] times, both in and out of rounds. They are not roleplay rules, and admins will enforce them even if it harms the roleplay experience of a shift.
 
-  - [textlink="Admin Intervention" link="WCAdmins"]
+  - [textlink="Admin Intervention" link="RuleC0Admins"]
 
-  - [textlink="1. " link="RuleC1"]
-  - [textlink="2. Metagaming and OOC Information" link="RuleC2"]
-  - [textlink="3. Basic Roleplay Expectations" link="RuleC3"]
-  - [textlink="4. Antagonists and Escalation Freedom" link="RuleC4"]
-  - [textlink="5. Command Responsibility and Mindshield Expectations" link="RuleC5"]
-  - [textlink="6. Ban Evasion" link="RuleC6"]
-  - [textlink="7. Only use English" link="RuleC7"]
-  - [textlink="8. No ERP" link="RuleC8"]
-  - [textlink="9. You MUST be 16+" link="RuleC9"]
-  - [textlink="10. Dying is Normal" link="RuleC10"]
-  - [textlink="11. Bigotry" link="RuleC11"]
+  - [textlink="1. Don't be a Dick" link="WCRuleC1"]
+  - [textlink="2. No ERP" link="WCRuleC2"]
+  - [textlink="3. You MUST be 16+" link="WCRuleC3"]
+  - [textlink="4. English Only" link="WCRuleC4"]
+  - [textlink="5. No Bigotry" link="WCRuleC5"]
+  - [textlink="6. Do not Ban Evade" link="WCRuleC6"]
+  - [textlink="7. Dying is Normal" link="WCRuleC7"]
+
 </Document>
-Don't be a dick
