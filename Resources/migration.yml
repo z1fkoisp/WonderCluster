@@ -1065,4 +1065,4 @@ FoodDonutJellySlugcat: FoodDonutJellyScurret
 GhostBarSpawner: null
 
 # 2026-01-10 Goobstation Change Mapped Chem to Energy Chem by default
-ChemDispenser: EnergyChemDispenser
+# ChemDispenser: EnergyChemDispenser //Wondercluster; no thanks im good
